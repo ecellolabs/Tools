@@ -1,2 +1,5 @@
 /dist
 /ecello.egg-info
+*.pyc
+__pycache__
+venv

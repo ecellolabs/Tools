@@ -1,1 +1,1 @@
-from .core import init, disk
+from .core import init, disk, gcs_upload, gcs_download, gcs_list, gcs_sync

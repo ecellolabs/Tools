@@ -5,6 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ecello"
 version = "0.1"
+dependencies = [
+    "google-cloud-storage",
+]
 
 [tool.setuptools.packages.find]
 include = ["ecello*"]
